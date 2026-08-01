@@ -1,0 +1,11 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="24" fill="#F2F7F8"/>
+  <rect x="80" y="90" width="640" height="320" rx="20" fill="#DDECEF"/>
+  <path d="M140 360C180 300 250 250 330 250C420 250 500 320 570 310C620 302 660 260 700 220" stroke="#0F3B4B" stroke-width="10" stroke-linecap="round"/>
+  <path d="M180 330L260 240L330 270L410 190L520 250L620 200" stroke="#14566A" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="260" cy="240" r="24" fill="#0F3B4B"/>
+  <circle cx="520" cy="250" r="24" fill="#0F3B4B"/>
+  <rect x="120" y="130" width="220" height="90" rx="16" fill="#FFFFFF"/>
+  <text x="150" y="170" fill="#0F3B4B" font-size="22" font-family="Segoe UI, sans-serif">Dalageymslur</text>
+  <text x="150" y="198" fill="#5F6D75" font-size="16" font-family="Segoe UI, sans-serif">Innanhúss geymsla</text>
+</svg>
