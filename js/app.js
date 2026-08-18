@@ -44,9 +44,7 @@ vehicleTypeSelect.addEventListener('change', updatePrice);
 lengthInput.addEventListener('input', updatePrice);
 
 requestForm.addEventListener('submit', (event) => {
-  event.preventDefault();
-  formMessage.textContent = 'Þakka þér fyrir fyrirspurnina. Við munum hafa samband eins fljótt og auðið er.';
-  requestForm.reset();
+  formMessage.textContent = 'Sendir fyrirspurn…';
 });
 
 if (year) {

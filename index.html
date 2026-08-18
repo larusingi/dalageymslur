@@ -207,7 +207,7 @@
               Formið er eingöngu fyrir útlit og sýnishorn. Við tökum ekki á móti fyrirspurnum í gegnum bakenda í þessari útgáfu.
             </p>
           </div>
-          <form class="request-form" id="request-form">
+          <form class="request-form" id="request-form" action="https://formsubmit.co/lalliingi@gmail.com" method="POST">
             <div class="form-row">
               <label for="name">Nafn</label>
               <input id="name" name="name" type="text" required />
@@ -252,6 +252,8 @@
               <label for="notes">Athugasemdir</label>
               <textarea id="notes" name="notes" rows="4"></textarea>
             </div>
+            <input type="hidden" name="_subject" value="Ný fyrirspurn frá Dalageymslur" />
+            <input type="hidden" name="_next" value="https://larusingi.github.io/dalageymslur/" />
             <button class="button button-primary" type="submit">Senda fyrirspurn</button>
             <p class="form-message" id="form-message" aria-live="polite"></p>
           </form>
